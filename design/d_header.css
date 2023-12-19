@@ -1,0 +1,31 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.hel{
+    background-color: #094b4a;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    justify-content: center;
+    /* display: flex; */
+    margin: auto;
+    margin-top: 200px;
+    width: 50%;
+    padding: 10px 12px;
+    /* display: none; */
+    text-shadow: 6px 6px 2px #000000;
+}
+.hidden{
+    display: none;
+}
+
+h2:hover + .hidden{
+    letter-spacing: 2px;
+    transition: 1s;
+    display:block;
+}
+.hidden{
+    transition: 1s;
+}
+
+
